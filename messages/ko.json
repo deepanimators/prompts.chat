@@ -1144,8 +1144,8 @@
         "answer": "고급 AI 모델은 일상적인 질문을 잘 처리할 수 있지만, 다음과 같은 경우 프롬프트가 중요해집니다:\n\n• 애플리케이션에서 API를 통해 AI를 사용할 때 — 종종 한 번의 기회만 있고(\"원샷 프롬프팅\"), 주고받는 대화가 없습니다\n• 더 정확한 지시가 필요한 소형 경제적 모델로 작업할 때\n• 일관성과 신뢰성이 중요한 프로덕션 시스템을 구축할 때\n\n최적화된 프롬프트는 더 나은 결과를 얻고, 토큰(과 비용)을 절약하며, 더 신뢰할 수 있는 AI 기반 애플리케이션을 만드는 데 도움이 됩니다."
       },
       "whatIsPromptschat": {
-        "question": "tucprompt.vercel.app은 무엇인가요?",
-        "answer": "tucprompt.vercel.app은 사람들이 AI 프롬프트를 공유하고, 발견하고, 수집하는 커뮤니티 중심 플랫폼입니다. 4년 이상 사용자들이 여기서 프롬프트 최적화 기법을 공유해 왔습니다. 커뮤니티는 서로의 프롬프트를 개선하고 AI 시스템과 작업하는 새로운 접근 방식을 배우도록 돕습니다."
+        "question": "TUC Prompt은 무엇인가요?",
+        "answer": "TUC Prompt은 사람들이 AI 프롬프트를 공유하고, 발견하고, 수집하는 커뮤니티 중심 플랫폼입니다. 4년 이상 사용자들이 여기서 프롬프트 최적화 기법을 공유해 왔습니다. 커뮤니티는 서로의 프롬프트를 개선하고 AI 시스템과 작업하는 새로운 접근 방식을 배우도록 돕습니다."
       },
       "howToUse": {
         "question": "이 플랫폼의 프롬프트를 어떻게 사용하나요?",
@@ -1153,11 +1153,11 @@
       },
       "license": {
         "question": "이 프롬프트를 상업적으로 사용할 수 있나요?",
-        "answer": "네! tucprompt.vercel.app의 모든 프롬프트는 CC0(Creative Commons Zero) 라이선스로 출시되어 퍼블릭 도메인에 속합니다. 저작자 표시 없이 상업적 용도를 포함한 모든 목적으로 자유롭게 사용, 수정, 배포할 수 있습니다."
+        "answer": "네! TUC Prompt의 모든 프롬프트는 CC0(Creative Commons Zero) 라이선스로 출시되어 퍼블릭 도메인에 속합니다. 저작자 표시 없이 상업적 용도를 포함한 모든 목적으로 자유롭게 사용, 수정, 배포할 수 있습니다."
       },
       "selfHost": {
         "question": "이 플랫폼을 셀프 호스팅할 수 있나요?",
-        "answer": "물론입니다! tucprompt.vercel.app은 완전히 오픈 소스입니다. 팀이나 조직을 위해 자체 프라이빗 인스턴스를 배포할 수 있습니다. 설정 지침은 셀프 호스팅 문서를 확인하세요."
+        "answer": "물론입니다! TUC Prompt은 완전히 오픈 소스입니다. 팀이나 조직을 위해 자체 프라이빗 인스턴스를 배포할 수 있습니다. 설정 지침은 셀프 호스팅 문서를 확인하세요."
       },
       "verification": {
         "question": "인증된 사용자가 되려면 어떻게 해야 하나요?",
@@ -1409,18 +1409,18 @@
     }
   },
   "appBanner": {
-    "message": "iPhone, iPad, Mac용 tucprompt.vercel.app 앱 다운로드",
+    "message": "iPhone, iPad, Mac용 TUC Prompt 앱 다운로드",
     "messageShort": "Apple 기기용 앱 다운로드",
     "download": "다운로드",
     "dismiss": "닫기"
   },
   "about": {
-    "title": "tucprompt.vercel.app 소개",
+    "title": "TUC Prompt 소개",
     "description": "ChatGPT 발표 2주 후 만들어진 최초의 AI 프롬프트 라이브러리 이야기.",
     "releasedOn": "2022년 12월 5일",
     "storyTitle": "우리의 이야기",
     "goalTitle": "우리의 목표",
-    "story1Rich": "tucprompt.vercel.app은 <repoLink>Awesome ChatGPT Prompts</repoLink> 저장소의 웹 시각화입니다. ChatGPT 초기 버전에 기록 기능이 없었을 때, <authorLink>@f</authorLink>가 프롬프트를 정리하기 위해 시작한 개인 프로젝트였습니다.",
+    "story1Rich": "TUC Prompt은 <repoLink>Awesome ChatGPT Prompts</repoLink> 저장소의 웹 시각화입니다. ChatGPT 초기 버전에 기록 기능이 없었을 때, <authorLink>@f</authorLink>가 프롬프트를 정리하기 위해 시작한 개인 프로젝트였습니다.",
     "story2": "Awesome ChatGPT Prompts 저장소는 2022년 12월 5일, ChatGPT가 세상에 발표된 지 불과 2주 만에 만들어졌습니다. 간단한 솔루션으로 시작한 것이 수백만 AI 애호가들의 필수 리소스가 되었습니다.",
     "testimonialsRich": "AI 선구자들의 사랑을 받고 있습니다. OpenAI 공동 창립자 <gregLink>Greg Brockman</gregLink>과 <wojciechLink>Wojciech Zaremba</wojciechLink>도 포함됩니다.",
     "openSource": "첫날부터 완전히 무료이고 오픈 소스입니다.",
@@ -1723,7 +1723,7 @@
     "metaTitle": "인터랙티브 프롬프팅 북 | AI 프롬프트 엔지니어링 무료 온라인 가이드",
     "metaDescription": "이 무료 인터랙티브 가이드로 AI 프롬프트 엔지니어링을 마스터하세요. ChatGPT 프롬프트, 사고의 사슬 추론, Few-Shot 학습 및 고급 기술을 배우세요. 실제 예제가 포함된 25개 이상의 챕터.",
     "interactiveGuideBy": "인터랙티브 가이드 by",
-    "authorIntro": "안녕하세요, 저는 <author>Fatih Kadir Akın</author>입니다. GitHub의 인기 <repoLink>Awesome ChatGPT Prompts</repoLink> 저장소와 <siteName>tucprompt.vercel.app</siteName>의 큐레이터입니다.",
+    "authorIntro": "안녕하세요, 저는 <author>Fatih Kadir Akın</author>입니다. GitHub의 인기 <repoLink>Awesome ChatGPT Prompts</repoLink> 저장소와 <siteName>TUC Prompt</siteName>의 큐레이터입니다.",
     "bookDescription": "이 포괄적인 인터랙티브 가이드에서 매력적이고 효과적인 대화를 생성하는 설득력 있는 AI 프롬프트를 만들기 위한 전문 전략을 발견할 수 있습니다. AI 모델의 작동 방식 이해부터 프롬프트 체이닝 및 에이전트 시스템과 같은 고급 기술 습득까지, 이 책은 AI 상호작용을 다음 단계로 끌어올리는 데 필요한 도구를 제공합니다.",
     "whatYouWillLearn": "배우게 될 내용:",
     "highlights": {

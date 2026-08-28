@@ -40,12 +40,12 @@ export async function generateMetadata(): Promise<Metadata> {
     ],
     authors: [{ name: "Fatih Kadir Akın", url: "https://github.com/f" }],
     creator: "Fatih Kadir Akın",
-    publisher: "tucprompt.vercel.app",
+    publisher: "TUC Prompt",
     openGraph: {
       title,
       description,
       url: "https://tucprompt.vercel.app/book",
-      siteName: "tucprompt.vercel.app",
+      siteName: "TUC Prompt",
       images: [
         {
           url: "https://tucprompt.vercel.app/book-cover-photo.jpg",
@@ -95,7 +95,7 @@ const jsonLd = {
   },
   publisher: {
     "@type": "Organization",
-    name: "tucprompt.vercel.app",
+    name: "TUC Prompt",
     url: "https://tucprompt.vercel.app",
   },
   url: "https://tucprompt.vercel.app/book",
@@ -166,7 +166,7 @@ export default async function BookHomePage() {
         <p>
           {t.rich("authorIntro", {
             author: (chunks) => <strong className="text-foreground">{chunks}</strong>,
-            repoLink: (chunks) => <a href="https://github.com/f/tucprompt.vercel.app" className="text-primary hover:underline">{chunks}</a>,
+            repoLink: (chunks) => <a href="https://github.com/f/TUC Prompt" className="text-primary hover:underline">{chunks}</a>,
             siteName: (chunks) => <strong className="text-foreground">{chunks}</strong>,
           })}
         </p>
@@ -217,7 +217,7 @@ export default async function BookHomePage() {
           </Link>
         </Button>
         <Button asChild variant="outline" size="lg">
-          <a href={`https://raw.githubusercontent.com/f/tucprompt.vercel.app/refs/heads/main/public/book-pdf/book-${locale}-print.pdf`} download>
+          <a href={`https://raw.githubusercontent.com/f/TUC Prompt/refs/heads/main/public/book-pdf/book-${locale}-print.pdf`} download>
             <Download className="mr-2 h-4 w-4" />
             {t("downloadPdf")}
           </a>
@@ -260,7 +260,7 @@ export default async function BookHomePage() {
       <div className="mt-12 pt-6 border-t text-sm text-muted-foreground">
         <p>
           {t.rich("partOfProject", {
-            repoLink: (chunks) => <a href="https://github.com/f/tucprompt.vercel.app" className="text-primary hover:underline">{chunks}</a>,
+            repoLink: (chunks) => <a href="https://github.com/f/TUC Prompt" className="text-primary hover:underline">{chunks}</a>,
           })}
         </p>
       </div>

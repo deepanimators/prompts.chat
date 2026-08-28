@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: ChapterPageProps): Promise<Me
       title: `${chapter.title} - The Interactive Book of Prompting`,
       description,
       url: `https://tucprompt.vercel.app/book/${slug}`,
-      siteName: "tucprompt.vercel.app",
+      siteName: "TUC Prompt",
       images: [
         {
           url: "https://tucprompt.vercel.app/book-cover-photo.jpg",

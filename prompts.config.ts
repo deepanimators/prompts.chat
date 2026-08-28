@@ -6,7 +6,7 @@ const useCloneBranding = false;
 export default defineConfig({
   // Branding - customize for white-label
   branding: {
-    name: "tucprompt.vercel.app",
+    name: "TUC Prompt",
     logo: "/logo.svg",
     logoDark: "/logo-dark.svg",
     favicon: "/logo.svg",

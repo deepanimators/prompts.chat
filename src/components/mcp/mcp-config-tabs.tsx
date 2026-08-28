@@ -366,7 +366,7 @@ export function McpConfigTabs({ baseUrl, queryParams, className, mode, onModeCha
             </Button>
           </div>
           <p className="text-[10px] text-muted-foreground">
-            tucprompt.vercel.app is in the official{" "}
+            TUC Prompt is in the official{" "}
             <a
               href="https://github.com/mcp"
               target="_blank"

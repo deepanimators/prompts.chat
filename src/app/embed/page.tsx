@@ -592,10 +592,10 @@ function EmbedContent() {
             >
               <img 
                 src={isDark ? "/logo-dark.svg" : "/logo.svg"} 
-                alt="tucprompt.vercel.app" 
+                alt="TUC Prompt" 
                 className="w-3.5 h-3.5"
               />
-              <span>tucprompt.vercel.app</span>
+              <span>TUC Prompt</span>
             </a>
             {config.prompt && (
               <div className={isDark ? "dark" : ""}>

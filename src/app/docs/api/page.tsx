@@ -14,13 +14,13 @@ import { McpConfigTabs } from "@/components/mcp/mcp-config-tabs";
 import config from "@/../prompts.config";
 
 export const metadata = {
-  title: "API Documentation - tucprompt.vercel.app",
+  title: "API Documentation - TUC Prompt",
   description: "API for searching and discovering AI prompts programmatically",
 };
 
 export default async function ApiDocsPage() {
   const headersList = await headers();
-  const host = headersList.get("host") || "tucprompt.vercel.app";
+  const host = headersList.get("host") || "TUC Prompt";
   const protocol = host.includes("localhost") ? "http" : "https";
   const baseUrl = `${protocol}://${host}`;
   return (
@@ -28,8 +28,8 @@ export default async function ApiDocsPage() {
       <h1 className="text-2xl font-bold mb-2">API Documentation</h1>
       <p className="text-muted-foreground mb-8">
         {config.features.mcp !== false 
-          ? "tucprompt.vercel.app provides an MCP-first API for searching and discovering AI prompts programmatically. Use the MCP endpoint directly with any MCP-compatible client, or make standard HTTP requests."
-          : "tucprompt.vercel.app provides an API for searching and discovering AI prompts programmatically."
+          ? "TUC Prompt provides an MCP-first API for searching and discovering AI prompts programmatically. Use the MCP endpoint directly with any MCP-compatible client, or make standard HTTP requests."
+          : "TUC Prompt provides an API for searching and discovering AI prompts programmatically."
         }
       </p>
 
@@ -68,11 +68,11 @@ export default async function ApiDocsPage() {
                 Using with MCP Clients
               </h2>
               <p className="text-muted-foreground">
-                Add tucprompt.vercel.app to your MCP client configuration. Choose your client and connection type below:
+                Add TUC Prompt to your MCP client configuration. Choose your client and connection type below:
               </p>
               <McpConfigTabs baseUrl={baseUrl} className="[&_button]:text-sm [&_button]:px-3 [&_button]:py-1.5 [&_pre]:text-sm [&_pre]:p-4" />
               <p className="text-muted-foreground text-sm">
-                <strong>Remote</strong> connects directly to tucprompt.vercel.app API. <strong>Local</strong> runs the MCP server locally via npx.
+                <strong>Remote</strong> connects directly to TUC Prompt API. <strong>Local</strong> runs the MCP server locally via npx.
               </p>
             </section>
 
@@ -132,7 +132,7 @@ curl -X POST ${baseUrl}/api/mcp \\
               </div>
 
               <p className="text-muted-foreground text-sm">
-                <strong>Remote (HTTP)</strong> sends requests to tucprompt.vercel.app with the API key in headers.
+                <strong>Remote (HTTP)</strong> sends requests to TUC Prompt with the API key in headers.
                 <strong> Local (stdio)</strong> runs the MCP server locally via npx with the API key as an environment variable.
                 With authentication, you can use the <code className="bg-muted px-1.5 py-0.5 rounded">save_prompt</code> tool 
                 and search results will include your private prompts.

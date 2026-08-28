@@ -581,7 +581,7 @@ function createServer(options: ServerOptions = {}) {
     {
       title: "Save Prompt",
       description:
-        "Save a new prompt to your tucprompt.vercel.app account. Requires API key authentication. Prompts are private by default unless configured otherwise in settings.",
+        "Save a new prompt to your TUC Prompt account. Requires API key authentication. Prompts are private by default unless configured otherwise in settings.",
       inputSchema: {
         title: z.string().min(1).max(200).describe("Title of the prompt"),
         content: z.string().min(1).describe("The prompt content. Can include variables like ${variable} or ${variable:default}"),
@@ -744,7 +744,7 @@ function createServer(options: ServerOptions = {}) {
     {
       title: "Save Skill",
       description:
-        "Save a new Agent Skill to your tucprompt.vercel.app account. Skills are multi-file prompts that can include SKILL.md (required), reference docs, scripts, and configuration files. Requires API key authentication. If the file contents are too long, first save the SKILL.md only, with no other files. Then call add_file_to_skill tool per file.",
+        "Save a new Agent Skill to your TUC Prompt account. Skills are multi-file prompts that can include SKILL.md (required), reference docs, scripts, and configuration files. Requires API key authentication. If the file contents are too long, first save the SKILL.md only, with no other files. Then call add_file_to_skill tool per file.",
       inputSchema: {
         title: z.string().min(1).max(200).describe("Title of the skill"),
         description: z.string().max(500).optional().describe("Description of what the skill does"),

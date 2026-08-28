@@ -284,7 +284,7 @@ export default async function HomePage() {
             </div>
             {!useCloneBranding && (
               <div className="flex flex-col md:flex-row items-center justify-center gap-1.5 mt-4 pt-4 border-t text-xs text-muted-foreground">
-                <span><b>tucprompt.vercel.app</b> is built with</span>
+                <span><b>TUC Prompt</b> is built with</span>
                 <span className="inline-flex items-center gap-1.5">
                   <BuiltWithLink href="https://wind.surf/prompts-chat" toolName="Windsurf">
                     <Image

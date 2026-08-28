@@ -34,7 +34,7 @@ export const ACTIVE_ANNOUNCEMENT: AnnouncementBannerConfig | null = {
         rel="noopener noreferrer"
         className="hover:underline"
       >
-        <span className="font-semibold">tucprompt.vercel.app</span> is sponsoring to{" "}
+        <span className="font-semibold">TUC Prompt</span> is sponsoring to{" "}
         <span className="font-semibold">LatentShift AI Conference</span> in 17
         October 2026 in Istanbul
       </Link>{" "}
@@ -57,7 +57,7 @@ export const ACTIVE_ANNOUNCEMENT: AnnouncementBannerConfig | null = {
         rel="noopener noreferrer"
         className="hover:underline"
       >
-        <span className="font-semibold">tucprompt.vercel.app</span> × LatentShift AI ·
+        <span className="font-semibold">TUC Prompt</span> × LatentShift AI ·
         Istanbul
       </Link>{" "}
       ·{" "}

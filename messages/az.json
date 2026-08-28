@@ -1144,8 +1144,8 @@
         "answer": "Qabaqcıl AI modelləri sadə sualları yaxşı idarə etsə də, promptlar aşağıdakı hallarda kritik olur:\n\n• Tətbiqlərdə API vasitəsilə AI istifadə edərkən — çox vaxt düzgün nəticə almaq üçün yalnız bir şansınız olur (\"bir atışlıq prompting\"), geri-irəli dialoq olmadan\n• Daha dəqiq təlimatlara ehtiyacı olan daha kiçik, sərfəli modellərlə işləyərkən\n• Tutarlılıq və etibarlılığın vacib olduğu istehsal sistemləri qurarkən\n\nOptimallaşdırılmış promptlar daha yaxşı nəticələr əldə etməyə, tokenlər (və pul) qənaət etməyə və daha etibarlı AI ilə işləyən tətbiqlər yaratmağa kömək edir."
       },
       "whatIsPromptschat": {
-        "question": "tucprompt.vercel.app nədir?",
-        "answer": "tucprompt.vercel.app insanların AI promptlarını paylaşdığı, kəşf etdiyi və topladığı icma tərəfindən idarə olunan platformadır. 4 ildən artıqdır ki, istifadəçilər burada prompt optimallaşdırma texnikalarını paylaşırlar. İcma bir-birinə promptlarını yaxşılaşdırmağa və AI sistemləri ilə işləmək üçün yeni yanaşmalar öyrənməyə kömək edir."
+        "question": "TUC Prompt nədir?",
+        "answer": "TUC Prompt insanların AI promptlarını paylaşdığı, kəşf etdiyi və topladığı icma tərəfindən idarə olunan platformadır. 4 ildən artıqdır ki, istifadəçilər burada prompt optimallaşdırma texnikalarını paylaşırlar. İcma bir-birinə promptlarını yaxşılaşdırmağa və AI sistemləri ilə işləmək üçün yeni yanaşmalar öyrənməyə kömək edir."
       },
       "howToUse": {
         "question": "Bu platformadan promptları necə istifadə edim?",
@@ -1153,11 +1153,11 @@
       },
       "license": {
         "question": "Bu promptları kommersiya məqsədilə istifadə edə bilərəmmi?",
-        "answer": "Bəli! tucprompt.vercel.app-dakı bütün promptlar CC0 (Creative Commons Zero) lisenziyası altında yayımlanır, bu da onların ictimai domendə olması deməkdir. Onları istənilən məqsəd üçün, o cümlədən kommersiya istifadəsi üçün, istinad olmadan sərbəst istifadə edə, dəyişdirə və paylaya bilərsiniz."
+        "answer": "Bəli! TUC Prompt-dakı bütün promptlar CC0 (Creative Commons Zero) lisenziyası altında yayımlanır, bu da onların ictimai domendə olması deməkdir. Onları istənilən məqsəd üçün, o cümlədən kommersiya istifadəsi üçün, istinad olmadan sərbəst istifadə edə, dəyişdirə və paylaya bilərsiniz."
       },
       "selfHost": {
         "question": "Bu platformanı öz serverimde qura bilərəmmi?",
-        "answer": "Əlbəttə! tucprompt.vercel.app tam açıq mənbədir. Komandanız və ya təşkilatınız üçün öz şəxsi nümunənizi yerləşdirə bilərsiniz. Quraşdırma təlimatları üçün öz-özünə hosting sənədlərimizə baxın."
+        "answer": "Əlbəttə! TUC Prompt tam açıq mənbədir. Komandanız və ya təşkilatınız üçün öz şəxsi nümunənizi yerləşdirə bilərsiniz. Quraşdırma təlimatları üçün öz-özünə hosting sənədlərimizə baxın."
       },
       "verification": {
         "question": "Doğrulanmış istifadəçi necə ola bilərəm?",
@@ -1409,18 +1409,18 @@
     }
   },
   "appBanner": {
-    "message": "iPhone, iPad və Mac üçün tucprompt.vercel.app tətbiqini yükləyin",
+    "message": "iPhone, iPad və Mac üçün TUC Prompt tətbiqini yükləyin",
     "messageShort": "Apple cihazları üçün tətbiqi yükləyin",
     "download": "Yüklə",
     "dismiss": "Bağla"
   },
   "about": {
-    "title": "tucprompt.vercel.app haqqında",
+    "title": "TUC Prompt haqqında",
     "description": "ChatGPT elan edildikdən 2 həftə sonra yaradılan ilk AI prompt kitabxanasının hekayəsi.",
     "releasedOn": "5 Dekabr 2022",
     "storyTitle": "Hekayəmiz",
     "goalTitle": "Məqsədimiz",
-    "story1Rich": "tucprompt.vercel.app <repoLink>Awesome ChatGPT Prompts</repoLink> deposunun veb görüntüsüdür. ChatGPT-nin ilk versiyasında tarix funksiyası olmadığı zaman <authorLink>@f</authorLink>-nin promptları təşkil etmək üçün başlatdığı şəxsi layihə kimi başladı.",
+    "story1Rich": "TUC Prompt <repoLink>Awesome ChatGPT Prompts</repoLink> deposunun veb görüntüsüdür. ChatGPT-nin ilk versiyasında tarix funksiyası olmadığı zaman <authorLink>@f</authorLink>-nin promptları təşkil etmək üçün başlatdığı şəxsi layihə kimi başladı.",
     "story2": "Awesome ChatGPT Prompts deposu 5 Dekabr 2022-də, ChatGPT dünyaya elan edildikdən cəmi 2 həftə sonra yaradıldı. Sadə bir həll olaraq başlayan şey milyonlarla AI həvəskarı üçün əsas resurs halına gəldi.",
     "testimonialsRich": "AI pionerləri tərəfindən sevilir, OpenAI-nin həmtəsisçiləri <gregLink>Greg Brockman</gregLink> və <wojciechLink>Wojciech Zaremba</wojciechLink> daxil olmaqla.",
     "openSource": "İlk gündən tamamilə pulsuz və açıq mənbə.",
@@ -1723,7 +1723,7 @@
     "metaTitle": "İnteraktiv Prompting Kitabı | AI Prompt Mühəndisliyi üçün Pulsuz Onlayn Bələdçi",
     "metaDescription": "Bu pulsuz, interaktiv bələdçi ilə AI prompt mühəndisliyini mənimsəyin. ChatGPT promptları, düşüncə zənciri, az nümunə ilə öyrənmə və qabaqcıl texnikaları öyrənin. Real nümunələrlə 25+ fəsil.",
     "interactiveGuideBy": "İnteraktiv Bələdçi",
-    "authorIntro": "Salam, mən <author>Fatih Kadir Akın</author>-am, GitHub-da populyar <repoLink>Awesome ChatGPT Prompts</repoLink> deposunun və <siteName>tucprompt.vercel.app</siteName> saytının yaradıcısıyam.",
+    "authorIntro": "Salam, mən <author>Fatih Kadir Akın</author>-am, GitHub-da populyar <repoLink>Awesome ChatGPT Prompts</repoLink> deposunun və <siteName>TUC Prompt</siteName> saytının yaradıcısıyam.",
     "bookDescription": "Bu hərtərəfli və interaktiv bələdçidə, cəlbedici və effektiv söhbətlər aparan AI promptları yaratmaq üçün ekspert strategiyaları kəşf edəcəksiniz. AI modellərinin necə işlədiyini anlamaqdan prompt zəncirləmə və agent sistemləri kimi qabaqcıl texnikalara qədər, bu kitab AI qarşılıqlı əlaqələrinizi növbəti səviyyəyə çatdırmaq üçün lazım olan alətləri təqdim edir.",
     "whatYouWillLearn": "Nə öyrənəcəksiniz:",
     "highlights": {

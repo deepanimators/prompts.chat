@@ -41,8 +41,8 @@ const playfairDisplay = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXTAUTH_URL || "http://localhost:3000"),
   title: {
-    default: "tucprompt.vercel.app - AI Prompts Community",
-    template: "%s | tucprompt.vercel.app",
+    default: "TUC Prompt - AI Prompts Community",
+    template: "%s | TUC Prompt",
   },
   description:
     "Discover, collect, and share the best AI prompts for ChatGPT, Claude, Gemini, and more. Join the largest community of AI prompt engineers and creators.",
@@ -57,9 +57,9 @@ export const metadata: Metadata = {
     "AI assistant",
     "prompt templates",
   ],
-  authors: [{ name: "tucprompt.vercel.app community" }],
-  creator: "tucprompt.vercel.app",
-  publisher: "tucprompt.vercel.app",
+  authors: [{ name: "TUC Prompt community" }],
+  creator: "TUC Prompt",
+  publisher: "TUC Prompt",
   icons: {
     icon: [
       { url: "/favicon/favicon.svg", type: "image/svg+xml" },
@@ -71,13 +71,13 @@ export const metadata: Metadata = {
   },
   manifest: "/favicon/site.webmanifest",
   other: {
-    "apple-mobile-web-app-title": "tucprompt.vercel.app",
+    "apple-mobile-web-app-title": "TUC Prompt",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "tucprompt.vercel.app",
-    title: "tucprompt.vercel.app - AI Prompts Community",
+    siteName: "TUC Prompt",
+    title: "TUC Prompt - AI Prompts Community",
     description:
       "Discover, collect, and share the best AI prompts for ChatGPT, Claude, Gemini, and more. Join the largest community of AI prompt engineers.",
     images: [
@@ -85,13 +85,13 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "tucprompt.vercel.app - AI Prompts Community",
+        alt: "TUC Prompt - AI Prompts Community",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "tucprompt.vercel.app - AI Prompts Community",
+    title: "TUC Prompt - AI Prompts Community",
     description:
       "Discover, collect, and share the best AI prompts for ChatGPT, Claude, Gemini, and more.",
     images: ["/og.png"],
@@ -109,7 +109,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: process.env.NEXTAUTH_URL || "https://tucprompt.vercel.app",
+    canonical: process.env.NEXTAUTH_URL || "https://TUC Prompt",
   },
 };
 
