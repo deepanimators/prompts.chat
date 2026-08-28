@@ -14,8 +14,8 @@ import {
 } from "@/components/ui/table";
 
 export const metadata = {
-  title: "Self-Hosting Guide - prompts.chat",
-  description: "Deploy your own prompts.chat instance with customizable branding, themes, and authentication",
+  title: "Self-Hosting Guide - tucprompt.vercel.app",
+  description: "Deploy your own tucprompt.vercel.app instance with customizable branding, themes, and authentication",
 };
 
 export default async function SelfHostingPage() {
@@ -25,7 +25,7 @@ export default async function SelfHostingPage() {
     <div className="container max-w-4xl py-10">
       <h1 className="text-2xl font-bold mb-2">Self-Hosting Guide</h1>
       <p className="text-muted-foreground mb-8">
-        Deploy your own prompts.chat instance with customizable branding, themes, and authentication.
+        Deploy your own tucprompt.vercel.app instance with customizable branding, themes, and authentication.
       </p>
 
       <div className="prose prose-neutral dark:prose-invert max-w-none space-y-10">
@@ -127,7 +127,7 @@ export default async function SelfHostingPage() {
             </h3>
             <div className="rounded-lg border p-4 space-y-4">
               <p className="text-muted-foreground">
-                prompts.chat requires PostgreSQL. For a hosted database, we recommend{" "}
+                tucprompt.vercel.app requires PostgreSQL. For a hosted database, we recommend{" "}
                 <Link
                   href="https://get.neon.com/VqfnMo4"
                   target="_blank"
@@ -582,7 +582,7 @@ export default async function SelfHostingPage() {
           <ul className="list-disc list-inside text-muted-foreground space-y-1">
             <li>Display your branding name and description on the homepage</li>
             <li>Use your logo as the hero background watermark</li>
-            <li>Hide prompts.chat achievements (GitHub stars, Forbes, etc.)</li>
+            <li>Hide tucprompt.vercel.app achievements (GitHub stars, Forbes, etc.)</li>
             <li>Hide sponsor section and &quot;Become a Sponsor&quot; CTA</li>
             <li>Hide &quot;Clone on GitHub&quot; button</li>
           </ul>

@@ -101,7 +101,7 @@ export default async function UserProfilePage({ params, searchParams }: UserProf
   const page = Math.max(1, parseInt(pageParam || "1") || 1);
   const perPage = 24;
   const isOwner = session?.user?.id === user.id;
-  const isUnclaimed = user.email?.endsWith("@unclaimed.prompts.chat") ?? false;
+  const isUnclaimed = user.email?.endsWith("@unclaimed.tucprompt") ?? false;
 
   // Parse date filter for filtering prompts by day (validate YYYY-MM-DD format)
   const isValidDateFilter = dateFilter && /^\d{4}-\d{2}-\d{2}$/.test(dateFilter);

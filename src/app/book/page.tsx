@@ -40,15 +40,15 @@ export async function generateMetadata(): Promise<Metadata> {
     ],
     authors: [{ name: "Fatih Kadir Akın", url: "https://github.com/f" }],
     creator: "Fatih Kadir Akın",
-    publisher: "prompts.chat",
+    publisher: "tucprompt.vercel.app",
     openGraph: {
       title,
       description,
-      url: "https://prompts.chat/book",
-      siteName: "prompts.chat",
+      url: "https://tucprompt.vercel.app/book",
+      siteName: "tucprompt.vercel.app",
       images: [
         {
-          url: "https://prompts.chat/book-cover-photo.jpg",
+          url: "https://tucprompt.vercel.app/book-cover-photo.jpg",
           width: 1200,
           height: 630,
           alt: title,
@@ -61,11 +61,11 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title,
       description,
-      images: ["https://prompts.chat/book-cover-photo.jpg"],
+      images: ["https://tucprompt.vercel.app/book-cover-photo.jpg"],
       creator: "@fkadev",
     },
     alternates: {
-      canonical: "https://prompts.chat/book",
+      canonical: "https://tucprompt.vercel.app/book",
     },
     robots: {
       index: true,
@@ -95,11 +95,11 @@ const jsonLd = {
   },
   publisher: {
     "@type": "Organization",
-    name: "prompts.chat",
-    url: "https://prompts.chat",
+    name: "tucprompt.vercel.app",
+    url: "https://tucprompt.vercel.app",
   },
-  url: "https://prompts.chat/book",
-  image: "https://prompts.chat/book-cover-photo.jpg",
+  url: "https://tucprompt.vercel.app/book",
+  image: "https://tucprompt.vercel.app/book-cover-photo.jpg",
   inLanguage: "en",
   genre: ["Technology", "Education", "Artificial Intelligence"],
   about: {
@@ -166,7 +166,7 @@ export default async function BookHomePage() {
         <p>
           {t.rich("authorIntro", {
             author: (chunks) => <strong className="text-foreground">{chunks}</strong>,
-            repoLink: (chunks) => <a href="https://github.com/f/prompts.chat" className="text-primary hover:underline">{chunks}</a>,
+            repoLink: (chunks) => <a href="https://github.com/f/tucprompt.vercel.app" className="text-primary hover:underline">{chunks}</a>,
             siteName: (chunks) => <strong className="text-foreground">{chunks}</strong>,
           })}
         </p>
@@ -217,7 +217,7 @@ export default async function BookHomePage() {
           </Link>
         </Button>
         <Button asChild variant="outline" size="lg">
-          <a href={`https://raw.githubusercontent.com/f/prompts.chat/refs/heads/main/public/book-pdf/book-${locale}-print.pdf`} download>
+          <a href={`https://raw.githubusercontent.com/f/tucprompt.vercel.app/refs/heads/main/public/book-pdf/book-${locale}-print.pdf`} download>
             <Download className="mr-2 h-4 w-4" />
             {t("downloadPdf")}
           </a>
@@ -260,7 +260,7 @@ export default async function BookHomePage() {
       <div className="mt-12 pt-6 border-t text-sm text-muted-foreground">
         <p>
           {t.rich("partOfProject", {
-            repoLink: (chunks) => <a href="https://github.com/f/prompts.chat" className="text-primary hover:underline">{chunks}</a>,
+            repoLink: (chunks) => <a href="https://github.com/f/tucprompt.vercel.app" className="text-primary hover:underline">{chunks}</a>,
           })}
         </p>
       </div>

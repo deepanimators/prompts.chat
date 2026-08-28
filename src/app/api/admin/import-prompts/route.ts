@@ -145,7 +145,7 @@ export async function POST(request: NextRequest) {
       }
 
       // Check if user exists by username or pseudo email
-      const pseudoEmail = `${normalizedUsername}@unclaimed.prompts.chat`;
+      const pseudoEmail = `${normalizedUsername}@unclaimed.tucprompt`;
       
       let user = await db.user.findFirst({
         where: {
@@ -284,10 +284,10 @@ export async function DELETE(request: NextRequest) {
       },
     });
 
-    // Delete all unclaimed users (users with @unclaimed.prompts.chat emails)
+    // Delete all unclaimed users (users with @unclaimed.tucprompt emails)
     const deletedUsers = await db.user.deleteMany({
       where: {
-        email: { endsWith: "@unclaimed.prompts.chat" },
+        email: { endsWith: "@unclaimed.tucprompt" },
       },
     });
 

@@ -1,6 +1,6 @@
 {
-  "name": "prompts.chat",
-  "short_name": "prompts",
+  "name": "tucprompt.vercel.app",
+  "short_name": "tucprompt",
   "icons": [
     {
       "src": "/favicon/web-app-manifest-192x192.png",

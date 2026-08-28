@@ -1144,8 +1144,8 @@
         "answer": "Embora modelos de IA avançados possam lidar bem com perguntas casuais, os prompts se tornam críticos quando:\n\n• Você usa IA via API em aplicações — muitas vezes você só tem uma chance (\"one-shot prompting\"), sem diálogo de ida e volta\n• Você trabalha com modelos menores e econômicos que precisam de instruções mais precisas\n• Você constrói sistemas de produção onde consistência e confiabilidade importam\n\nPrompts otimizados ajudam você a obter melhores resultados, economizar tokens (e dinheiro), e criar aplicações mais confiáveis alimentadas por IA."
       },
       "whatIsPromptschat": {
-        "question": "O que é prompts.chat?",
-        "answer": "prompts.chat é uma plataforma impulsionada pela comunidade onde as pessoas compartilham, descobrem e colecionam prompts de IA. Por mais de 4 anos, usuários têm compartilhado suas técnicas de otimização de prompts aqui. A comunidade ajuda uns aos outros a melhorar seus prompts e aprender novas abordagens para trabalhar com sistemas de IA."
+        "question": "O que é tucprompt.vercel.app?",
+        "answer": "tucprompt.vercel.app é uma plataforma impulsionada pela comunidade onde as pessoas compartilham, descobrem e colecionam prompts de IA. Por mais de 4 anos, usuários têm compartilhado suas técnicas de otimização de prompts aqui. A comunidade ajuda uns aos outros a melhorar seus prompts e aprender novas abordagens para trabalhar com sistemas de IA."
       },
       "howToUse": {
         "question": "Como uso os prompts desta plataforma?",
@@ -1153,11 +1153,11 @@
       },
       "license": {
         "question": "Posso usar esses prompts comercialmente?",
-        "answer": "Sim! Todos os prompts no prompts.chat são liberados sob a licença CC0 (Creative Commons Zero), o que significa que são de domínio público. Você pode usá-los, modificá-los e distribuí-los livremente para qualquer propósito, incluindo uso comercial, sem atribuição."
+        "answer": "Sim! Todos os prompts no tucprompt.vercel.app são liberados sob a licença CC0 (Creative Commons Zero), o que significa que são de domínio público. Você pode usá-los, modificá-los e distribuí-los livremente para qualquer propósito, incluindo uso comercial, sem atribuição."
       },
       "selfHost": {
         "question": "Posso hospedar esta plataforma por conta própria?",
-        "answer": "Absolutamente! prompts.chat é totalmente código aberto. Você pode implantar sua própria instância privada para sua equipe ou organização. Confira nossa documentação de auto-hospedagem para instruções de configuração."
+        "answer": "Absolutamente! tucprompt.vercel.app é totalmente código aberto. Você pode implantar sua própria instância privada para sua equipe ou organização. Confira nossa documentação de auto-hospedagem para instruções de configuração."
       },
       "verification": {
         "question": "Como posso me tornar um usuário verificado?",
@@ -1409,18 +1409,18 @@
     }
   },
   "appBanner": {
-    "message": "Baixe o app prompts.chat para iPhone, iPad e Mac",
+    "message": "Baixe o app tucprompt.vercel.app para iPhone, iPad e Mac",
     "messageShort": "Baixe o app para dispositivos Apple",
     "download": "Baixar",
     "dismiss": "Fechar"
   },
   "about": {
-    "title": "Sobre o prompts.chat",
+    "title": "Sobre o tucprompt.vercel.app",
     "description": "A história por trás da primeira biblioteca de prompts de IA, criada 2 semanas após o anúncio do ChatGPT.",
     "releasedOn": "5 de dezembro de 2022",
     "storyTitle": "Nossa História",
     "goalTitle": "Nosso Objetivo",
-    "story1Rich": "prompts.chat é a visualização web do repositório <repoLink>Awesome ChatGPT Prompts</repoLink>. Começou como um projeto pessoal de <authorLink>@f</authorLink> para manter os prompts do ChatGPT organizados, quando o ChatGPT não tinha função de histórico em sua versão inicial.",
+    "story1Rich": "tucprompt.vercel.app é a visualização web do repositório <repoLink>Awesome ChatGPT Prompts</repoLink>. Começou como um projeto pessoal de <authorLink>@f</authorLink> para manter os prompts do ChatGPT organizados, quando o ChatGPT não tinha função de histórico em sua versão inicial.",
     "story2": "O repositório Awesome ChatGPT Prompts foi criado em 5 de dezembro de 2022, apenas 2 semanas após o ChatGPT ser anunciado ao mundo. O que começou como uma solução simples se tornou o recurso principal para milhões de entusiastas de IA.",
     "testimonialsRich": "Amado por pioneiros da IA, incluindo os cofundadores da OpenAI <gregLink>Greg Brockman</gregLink> e <wojciechLink>Wojciech Zaremba</wojciechLink>.",
     "openSource": "Completamente gratuito e open source desde o primeiro dia.",
@@ -1723,7 +1723,7 @@
     "metaTitle": "O Livro Interativo de Prompting | Guia Gratuito Online de Engenharia de Prompts IA",
     "metaDescription": "Domine a engenharia de prompts IA com este guia interativo gratuito. Aprenda prompts do ChatGPT, raciocínio chain-of-thought, few-shot learning e técnicas avançadas. 25+ capítulos com exemplos reais.",
     "interactiveGuideBy": "Um Guia Interativo de",
-    "authorIntro": "Olá, sou <author>Fatih Kadir Akın</author>, o curador do popular repositório <repoLink>Awesome ChatGPT Prompts</repoLink> no GitHub e do <siteName>prompts.chat</siteName>.",
+    "authorIntro": "Olá, sou <author>Fatih Kadir Akın</author>, o curador do popular repositório <repoLink>Awesome ChatGPT Prompts</repoLink> no GitHub e do <siteName>tucprompt.vercel.app</siteName>.",
     "bookDescription": "Neste guia completo e interativo, você descobrirá estratégias especializadas para criar prompts de IA convincentes que geram conversações envolventes e eficazes. Desde entender como os modelos de IA funcionam até dominar técnicas avançadas como prompt chaining e sistemas agênticos, este livro fornece as ferramentas que você precisa para levar suas interações com IA ao próximo nível.",
     "whatYouWillLearn": "O que você aprenderá:",
     "highlights": {

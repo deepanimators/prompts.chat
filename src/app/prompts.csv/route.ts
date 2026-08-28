@@ -17,9 +17,9 @@ function escapeCSVField(field: string): string {
 function getUserIdentifier(user: { email: string; username: string; githubUsername: string | null }): string {
   // Determine contributor identifier (immutable to prevent impersonation):
   // 1. githubUsername if set (GitHub OAuth users)
-  // 2. username if email ends with @unclaimed.prompts.chat (imported GitHub contributors)
+  // 2. username if email ends with @unclaimed.tucprompt (imported GitHub contributors)
   // 3. email for others (Google, credentials)
-  const isUnclaimedAccount = user.email.endsWith('@unclaimed.prompts.chat');
+  const isUnclaimedAccount = user.email.endsWith('@unclaimed.tucprompt');
   return user.githubUsername || (isUnclaimedAccount ? user.username : user.email);
 }
 

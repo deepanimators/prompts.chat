@@ -23,7 +23,7 @@ async function getContributors() {
   // Get unclaimed users (original GitHub contributors from CSV import)
   const unclaimedUsers = await db.user.findMany({
     where: {
-      email: { endsWith: "@unclaimed.prompts.chat" },
+      email: { endsWith: "@unclaimed.tucprompt" },
       username: { notIn: excludedFromCommunity },
     },
     select: {
@@ -43,7 +43,7 @@ async function getContributors() {
   const githubUsers = await db.user.findMany({
     where: {
       githubUsername: { not: null, notIn: excludedFromCommunity },
-      email: { not: { endsWith: "@unclaimed.prompts.chat" } },
+      email: { not: { endsWith: "@unclaimed.tucprompt" } },
       OR: [
         { prompts: { some: {} } },
         { contributions: { some: {} } },
