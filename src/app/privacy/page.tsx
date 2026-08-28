@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Privacy Policy - prompts.chat",
-  description: "Privacy Policy for prompts.chat",
+  title: "Privacy Policy - tucprompt.vercel.app",
+  description: "Privacy Policy for tucprompt.vercel.app",
 };
 
 export default function PrivacyPage() {
@@ -18,7 +18,7 @@ export default function PrivacyPage() {
         <section className="space-y-3">
           <h2 className="text-lg font-semibold">Overview</h2>
           <p className="text-muted-foreground">
-            prompts.chat is an open-source platform for collecting, organizing, and sharing AI prompts. 
+            tucprompt.vercel.app is an open-source platform for collecting, organizing, and sharing AI prompts. 
             All prompts shared on this platform are released under the{" "}
             <Link href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">
               CC0 (Creative Commons Zero)
@@ -118,7 +118,7 @@ export default function PrivacyPage() {
           <h2 className="text-lg font-semibold">Open Source</h2>
           <p className="text-muted-foreground">
             This platform is open source. You can review the code and self-host your own instance at{" "}
-            <Link href="https://github.com/f/prompts.chat" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">
+            <Link href="https://github.com/f/tucprompt.vercel.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">
               GitHub
             </Link>.
           </p>

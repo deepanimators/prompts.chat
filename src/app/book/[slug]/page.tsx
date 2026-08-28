@@ -45,11 +45,11 @@ export async function generateMetadata({ params }: ChapterPageProps): Promise<Me
     openGraph: {
       title: `${chapter.title} - The Interactive Book of Prompting`,
       description,
-      url: `https://prompts.chat/book/${slug}`,
-      siteName: "prompts.chat",
+      url: `https://tucprompt.vercel.app/book/${slug}`,
+      siteName: "tucprompt.vercel.app",
       images: [
         {
-          url: "https://prompts.chat/book-cover-photo.jpg",
+          url: "https://tucprompt.vercel.app/book-cover-photo.jpg",
           width: 1200,
           height: 630,
           alt: `${chapter.title} - Prompt Engineering Guide`,
@@ -62,10 +62,10 @@ export async function generateMetadata({ params }: ChapterPageProps): Promise<Me
       card: "summary_large_image",
       title: `${chapter.title} | Prompt Engineering`,
       description,
-      images: ["https://prompts.chat/book-cover-photo.jpg"],
+      images: ["https://tucprompt.vercel.app/book-cover-photo.jpg"],
     },
     alternates: {
-      canonical: `https://prompts.chat/book/${slug}`,
+      canonical: `https://tucprompt.vercel.app/book/${slug}`,
     },
     robots: {
       index: true,

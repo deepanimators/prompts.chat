@@ -178,7 +178,7 @@ export async function getConfig(): Promise<PromptsConfig> {
     // Fallback to default config
     baseConfig = {
       branding: {
-        name: "prompts.chat",
+        name: "tucprompt.vercel.app",
         logo: "/logo.svg",
         logoDark: "/logo-dark.svg",
         favicon: "/favicon.ico",

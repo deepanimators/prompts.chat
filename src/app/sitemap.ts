@@ -6,7 +6,7 @@ import { getAllChapters } from "@/lib/book/chapters";
 export const revalidate = 3600;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXTAUTH_URL || "https://prompts.chat";
+  const baseUrl = process.env.NEXTAUTH_URL || "https://tucprompt.vercel.app";
 
   // Static pages - always included
   const staticPages: MetadataRoute.Sitemap = [

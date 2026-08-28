@@ -43,7 +43,7 @@ function CustomPrismaAdapter(): Adapter {
       // If a username was provided, try to claim an unclaimed account first
       if (providedUsername) {
         const username = providedUsername;
-        const unclaimedEmail = `${username}@unclaimed.prompts.chat`;
+        const unclaimedEmail = `${username}@unclaimed.tucprompt`;
         const unclaimedUser = await db.user.findUnique({
           where: { email: unclaimedEmail },
         });

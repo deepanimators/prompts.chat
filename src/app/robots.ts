@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXTAUTH_URL || "https://prompts.chat";
+  const baseUrl = process.env.NEXTAUTH_URL || "https://tucprompt.vercel.app";
 
   return {
     rules: [
